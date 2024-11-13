@@ -1,0 +1,216 @@
+@import url(/fonts/fonts.css);
+
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#header {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #070F18;
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#headerCta h1 {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+p.gray {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    color: #575455;
+}
+
+#headerImg {
+    margin-left: 42px;
+}
+
+#headerImg img {
+    width: 100%;
+}
+
+#menu {
+    text-align: right;
+    margin-top: 49px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #070F18;
+}
+
+a {
+    color: #070F18;
+    text-decoration: none;
+}
+
+#buttonCta {
+    background-color: #1F7CFF;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+
+    color: #FFFFFF;
+    padding: 10px 25px 10px 25px;
+}
+
+.headerLogo {
+    text-align: center; /*text-align serve para imagens tbm*/
+}
+
+#clients {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.headerClientTxt {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+h2.red {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #F75C4E;
+}
+
+h1.black {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+    margin-top: 0;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+#services .textCenter h3 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #070F18;
+}
+
+#services .textCenter p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #575455;    
+}
+
+#contact {
+    
+    margin-top: 100px;
+}
+
+#contactImg img {
+    width: 100%;
+}
+
+#contactForm {
+    margin-left: 75px;
+    
+}
+
+#contactForm input {
+    background-color: #F5F6FB;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #575455;
+    border: none;
+    width: 88%;
+    padding: 15px 25px 15px 25px;
+    margin-bottom: 20px;
+}
+
+#contactForm button {
+    background-color: #1F7CFF;
+    border-radius: 50px;
+    padding: 15px 75px 15px 75px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    border: none;    
+}
+
+#portifolioTitle {
+    margin-top: 150px;
+}
+
+.portfolioImg {
+    padding: 20px; /*Para aumentar a distância entre a imagem e a borda*/
+}
+
+.portfolioImg img {
+    width: 100%;
+}
